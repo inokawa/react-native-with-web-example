@@ -18,13 +18,15 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+// @ts-ignore
+import Header from 'react-native/Libraries/NewAppScreen/components/Header';
+// import LearnMoreLinks from 'react-native/Libraries/NewAppScreen/components/LearnMoreLinks';
+// @ts-ignore
+import Colors from 'react-native/Libraries/NewAppScreen/components/Colors';
+// @ts-ignore
+import DebugInstructions from 'react-native/Libraries/NewAppScreen/components/DebugInstructions';
+// @ts-ignore
+import ReloadInstructions from 'react-native/Libraries/NewAppScreen/components/ReloadInstructions';
 
 declare const global: {HermesInternal: null | {}};
 
@@ -68,7 +70,7 @@ const App = () => {
                 Read the docs to discover what to do next:
               </Text>
             </View>
-            <LearnMoreLinks />
+            {/* <LearnMoreLinks /> */}
           </View>
         </ScrollView>
       </SafeAreaView>

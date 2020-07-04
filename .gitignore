@@ -29,6 +29,11 @@ build/
 local.properties
 *.iml
 
+## Web
+#
+web/bundle.js
+
+
 # Visual Studio Code
 #
 .vscode/

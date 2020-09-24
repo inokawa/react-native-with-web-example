@@ -1,6 +1,6 @@
 # react-native-with-web-example
 
-![deploy](https://github.com/n-inokawa/react-native-with-web-example/workflows/deploy/badge.svg?branch=master)
+![deploy](https://github.com/inokawa/react-native-with-web-example/workflows/deploy/badge.svg?branch=master)
 
 A setup of [React Native](https://reactnative.dev/) with [React Native Web](https://github.com/necolas/react-native-web).
 
@@ -44,4 +44,4 @@ yarn web:build
 
 ### Web
 
-https://n-inokawa.github.io/react-native-with-web-example/
+https://inokawa.github.io/react-native-with-web-example/

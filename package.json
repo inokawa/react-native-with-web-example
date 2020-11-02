@@ -9,7 +9,8 @@
     "web:start": "webpack-dev-server --mode=development",
     "web:build": "webpack --mode=production",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "postinstall": "(cd ios && pod install)"
   },
   "dependencies": {
     "react": "16.11.0",
